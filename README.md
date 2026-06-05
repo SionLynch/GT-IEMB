@@ -1,5 +1,5 @@
 # GT-IEMB
-This repository contains the Python code for the GT-IEMB filter presented in the publication S.Lynch, A.Garcia-Fernandez and L. Devlin, "A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements".
+This repository contains the Python code for the GT-IEMB filter presented in the publication S. Lynch, A. Garcia-Fernandez and L. Devlin, "A Track-Before-Detect Trajectory Multi-Bernoulli Filter for Generalised Superpositional Measurements".
 
 Each separate filter e.g. T-IEMB-UKF for alive trajectories can be run by navigating to the individual folder named for this filter i.e. "T_IEMB_UKF_Alive_Trajectories". The Scenario_1_Definition file can be run which simulates the filter using the parameters which are defined in this file. Some parameters may be defined in individual class files e.g. the motion model state transition and process noise are defined in the file "ConstantVelocityMotionModel.py".
 
